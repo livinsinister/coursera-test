@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" content="width=device-width,initial scale=1">
+	<title>Assignment solution for Module 2</title>
+	<style>
+		body{
+			margin-top: 50px;
+			margin: 5px;
+			padding: 5px;
+		}
+		h1{
+			text-align: center;
+			color: black;
+		}
+		p{
+			padding: 5%;
+			background-color: skyblue;
+			border: 1px solid black;
+			margin: 1%;
+			box-sizing: border-box;
+			position: relative;
+			float: left;
+		}
+		/******** For desktop view *******/
+		@media(min-width: 992px){
+			#p1{
+				width: 30%;
+				float: left;
+				display: inline-block;
+				clear: none;
+			}
+			#p2{
+				width: 30%;
+				float: left;
+				display: inline-block;
+				clear: none;
+			}
+			#p3{
+				width: 30%;
+				float: right;
+				display: inline-block;
+				clear: none;
+			}
+
+		}
+        /******** For tablet view ********/
+        @media(min-width: 768px)and (max-width: 991px){
+        	#p1{
+				width: 50%;
+				float: left;
+				clear: none;
+			}
+			#p2{
+				width: 50%;
+				float: right;
+				clear: none;
+			}
+			#p3{
+				width: 100%;
+				float: center;
+				clear: none;
+			}
+
+        }
+        /******** For mobile view *******/
+        @media(max-width: 767px){
+        	#p1{
+				width: 100%;
+				float: center;
+				clear: none;
+			}
+			#p2{
+				width: 100%;
+				float: center;
+				clear: none;
+			}
+			#p3{
+				width: 100%;
+				float: center;
+				clear: none;
+			}
+
+        }	
+	</style>
+</head>
+<body>
+	<h1>Our Menu</h1>
+	<div>
+		<p id="p1"><br >Chicken</br> Dummy text is given here.There is no actual meaning.</p>
+	</div>
+	<div>
+		<p id="p2"> <br >Beef</br> Dummy text is given here.There is no actual meaning.</p>
+	</div>
+	<div>
+		<p id="p3"> <br>Sushi</br> Dummy text is given here.There is no actual meaning.</p>
+	</div>
+</body>
+</html>
